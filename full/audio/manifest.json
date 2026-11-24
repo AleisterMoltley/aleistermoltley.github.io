@@ -1,0 +1,411 @@
+{
+  "weapons": {
+    "fists": {
+      "src": "FGHTImpt_Fist crack; face punch_CS_USC.mp3",
+      "t": 0.06
+    },
+    "knuckles": {
+      "src": "FGHTImpt_Body hits; boxing punches; very noisy_CS_USC.mp3",
+      "t": 0.299
+    },
+    "knife": {
+      "src": "WOODImpt_Cutting or chopping with large knife or machete_CS_USC.mp3",
+      "t": 0.499
+    },
+    "machete": {
+      "src": "WOODImpt_Cutting or chopping with large knife or machete_CS_USC.mp3",
+      "t": 12.332
+    },
+    "bat": {
+      "src": "WOODImpt_Wooden object falls but does not break_CS_USC.mp3",
+      "t": 0.03
+    },
+    "wrench": {
+      "src": "METLImpt_Metal hits against metal; foley_CS_USC.mp3",
+      "t": 0.589
+    },
+    "axe": {
+      "src": "WOODImpt_Two people chopping a tree with axes_CS_USC.mp3",
+      "t": 0.499
+    },
+    "baton": {
+      "src": "TOOLMisc_Gavel tapping & hitting_CS_USC.mp3",
+      "t": 0.13
+    },
+    "pocket25": {
+      "src": "GUNPis_Derringer 22 pistol shots_CS_USC.mp3",
+      "t": 0.13
+    },
+    "target22": {
+      "src": "GUNPis_Optical gun shot_CS_USC.mp3",
+      "t": 0.08
+    },
+    "snub38": {
+      "src": "GUNPis_Rapid revolver fire_CS_USC.mp3",
+      "t": 2.654
+    },
+    "service38": {
+      "src": "GUNPis_big revolver shots_CS_USC.mp3",
+      "t": 0.21
+    },
+    "compact9": {
+      "src": "GUNPis_Exterior pistol shots with no reverb_CS_USC.mp3",
+      "t": 0.08
+    },
+    "duty9": {
+      "src": "GUNPis_Exterior pistol shot_CS_USC.mp3",
+      "t": 0.15
+    },
+    "duty45": {
+      "src": "GUNPis_Classic large gun optical gun shots; dull_CS_USC.mp3",
+      "t": 0.15
+    },
+    "long9": {
+      "src": "GUNPis_Exterior pistol shots_CS_USC.mp3",
+      "t": 0.08
+    },
+    "machinep": {
+      "src": "GUNAuto_Tommy gun busts; machine gun_CS_USC.mp3",
+      "t": 0.339
+    },
+    "mag44": {
+      "src": "GUNPis_Big optical gun shot; close_CS_USC.mp3",
+      "t": 0.229
+    },
+    "coach": {
+      "src": "GUNShotg_Classic western shotgun blast with reverb_CS_USC.mp3",
+      "t": 2.375
+    },
+    "pump": {
+      "src": "GUNShotg_Shotgun_CS_USC.mp3",
+      "t": 0.03
+    },
+    "shorty": {
+      "src": "GUNShotg_Gun Shot; very big_CS_USC.mp3",
+      "t": 0.07
+    },
+    "semi12": {
+      "src": "GUNShotg_Classic western shotgun blast with reverb_CS_USC.mp3",
+      "t": 6.625
+    },
+    "beanbag": {
+      "src": "GUNShotg_Classic western shotgun blast with reverb_CS_USC.mp3",
+      "t": 7.274
+    },
+    "fold9": {
+      "src": "GUNAuto_Tommy gun busts; machine gun_CS_USC.mp3",
+      "t": 0.848
+    },
+    "guard-smg": {
+      "src": "GUNAuto_Machine gun bursts; indoors_CS_USC.mp3",
+      "t": 0.239
+    },
+    "smg45": {
+      "src": "GUNAuto_Machine gun fire; not close; dull_CS_USC.mp3",
+      "t": 0.359
+    },
+    "drum9": {
+      "src": "GUNAuto_Tommy gun busts; machine gun_CS_USC.mp3",
+      "t": 1.107
+    },
+    "can9": {
+      "src": "GUNSupr_Pistol shots with silencer_CS_USC.mp3",
+      "t": 0.13
+    },
+    "carbine22": {
+      "src": "GUNRif_Very sharp small rifle fire_CS_USC.mp3",
+      "t": 0.02
+    },
+    "lever": {
+      "src": "GUNRif_30 30 rifle shots_CS_USC.mp3",
+      "t": 0.22
+    },
+    "battle": {
+      "src": "GUNRif_Browning automatic rifle_CS_USC.mp3",
+      "t": 0.19
+    },
+    "carbine556": {
+      "src": "GUNAuto_M16 automatic rifle shots_CS_USC.mp3",
+      "t": 0.06
+    },
+    "halcon": {
+      "src": "GUNAuto_Bren machine gun with canyon echo_CS_USC.mp3",
+      "t": 0.339
+    },
+    "bullpup": {
+      "src": "GUNRif_Rifle shot at some distance_CS_USC.mp3",
+      "t": 0.19
+    },
+    "dmr": {
+      "src": "GUNRif_Distant rifle shot with long reverb_CS_USC.mp3",
+      "t": 0.18
+    },
+    "bolt308": {
+      "src": "GUNRif_Mountain rifle with reverb_CS_USC.mp3",
+      "t": 0.16
+    },
+    "ridge": {
+      "src": "GUNRif_Elephant gun being shot by British soldiers_CS_USC.mp3",
+      "t": 0.08
+    },
+    "am50": {
+      "src": "GUNAuto_50 cal Browning machine gun_CS_USC.mp3",
+      "t": 0.968
+    },
+    "whisper22": {
+      "src": "GUNSupr_Pistol shots; ping; silencer__CS_USC.mp3",
+      "t": 0.05
+    },
+    "lmg556": {
+      "src": "GUNAuto_Light machine gun from optical_CS_USC.mp3",
+      "t": 0.379
+    },
+    "saw762": {
+      "src": "GUNAuto_Large machine gun_CS_USC.mp3",
+      "t": 0.319
+    },
+    "flare": {
+      "src": "FIREWhsh_Flare whoosh_CS_USC.mp3",
+      "t": 0.319
+    },
+    "flame": {
+      "src": "FIREBrst_Flame thrower_CS_USC.mp3",
+      "t": 40.4
+    },
+    "flash": {
+      "src": "EXPLReal_Heavy sharp explosion with reverb_CS_USC.mp3",
+      "t": 0.22
+    },
+    "frag": {
+      "src": "EXPLReal_Hand grenade; 3 explosions_CHS_USC.mp3",
+      "t": 0.13
+    },
+    "taser": {
+      "src": "ALRMBuzr_Bell and buzzer alarm_CS_USC.mp3",
+      "t": 5.597
+    },
+    "smoke": {
+      "src": "FIRESizz_Fuse burning_CS_USC.mp3",
+      "t": 0.01
+    }
+  },
+  "engines": {
+    "compact": {
+      "src": "25 Nissan Pulsar.ogg",
+      "t": 8.042
+    },
+    "sedan": {
+      "src": "VEHCar_Car idles in garage_CS_USC.mp3",
+      "t": 3.702
+    },
+    "taxi": {
+      "src": "VEHCar_Volkswagen in & stop in large garage_CS_USC.mp3",
+      "t": 0.758
+    },
+    "pickup": {
+      "src": "VEHCar_Car in on dirt; drives away_CS_USC.mp3",
+      "t": 18.717
+    },
+    "suv": {
+      "src": "VEHTruck_Land Rover starts drives 35 mph over grassy_CS_USC.mp3",
+      "t": 33.584
+    },
+    "van": {
+      "src": "VEHTruck_Van by_CS_USC.mp3",
+      "t": 10.636
+    },
+    "combi": {
+      "src": "VEHTruck_Van in; skid out; distorted but fun; birds_CS_USC.mp3",
+      "t": 5.148
+    },
+    "bus": {
+      "src": "VEHBus_Partridge Family bus (school bus) idle_CS_USC.mp3",
+      "t": 6.196
+    },
+    "moto": {
+      "src": "VEHMoto_Small motorcycle idles; the starts up & rides_CS_USC.mp3",
+      "t": 14.677
+    },
+    "scooter": {
+      "src": "VEHMoto_Vespa scooter_CS_USC.mp3",
+      "t": 29.493
+    },
+    "bicycle": {
+      "src": "VEHBike_10 speed bicycle; very close_CS_USC.mp3",
+      "t": 17.52
+    },
+    "trike": {
+      "src": "VEHMoto_2 Stroke dirt bike; small motorcycle_CS_USC.mp3",
+      "t": 18.518
+    },
+    "truck": {
+      "src": "VEHMil_Army convoy in & by_CS_USC.mp3",
+      "t": 39.52
+    },
+    "mixer": {
+      "src": "volkswagen golf GTI VII.ogg",
+      "t": 17.171
+    },
+    "fire": {
+      "src": "VEHCnst_Bulldozer_CS_USC.mp3",
+      "t": 53.888
+    },
+    "ladder": {
+      "src": "VEHCnst_Construction crane lifts large object_CS_USC.mp3",
+      "t": 23.856
+    },
+    "ambulance": {
+      "src": "VEHInt_Steady car driving; Could be interior or_CS_USC.mp3",
+      "t": 14.377
+    },
+    "police": {
+      "src": "VEHCar_Large car by medium speed_CS_USC.mp3",
+      "t": 13.03
+    },
+    "swat": {
+      "src": "VEHMil_Military Tank or bulldozer; short_CS_USC.mp3",
+      "t": 2.305
+    },
+    "jeep": {
+      "src": "VEHMil_Vintage jeep drives in & stops_CS_USC.mp3",
+      "t": 3.951
+    },
+    "apc": {
+      "src": "VEHMil_Army tank starts drives_CS_USC.mp3",
+      "t": 11.085
+    },
+    "sports": {
+      "src": "18 Porsche 911 GT3.ogg",
+      "t": 0.06
+    },
+    "luxury": {
+      "src": "maserati quattroporte.ogg",
+      "t": 6.246
+    },
+    "foodtruck": {
+      "src": "VEHCar_Large old car drives in and stops_CS_USC.mp3",
+      "t": 0.609
+    },
+    "plane": {
+      "src": "AEROProp_L5 airplane flying in and passing close by_CS_USC.mp3",
+      "t": 0.359
+    },
+    "jet": {
+      "src": "AERORckt_V2 rocket fires_CS_USC.mp3",
+      "t": 17.72
+    },
+    "heli": {
+      "src": "AEROHeli_Helicopter in; hover; land; take off_CS_USC.mp3",
+      "t": 42.563
+    }
+  },
+  "world": {
+    "traffic": {
+      "src": "AMBTraf_Distant BG city traffic_CS_USC.mp3",
+      "t": 9.888
+    },
+    "voices": {
+      "src": "AMBRest_Cantina murmur; Spanish walla_CS_USC.mp3",
+      "t": 5.098
+    },
+    "rain": {
+      "src": "Rain_(1).ogg",
+      "t": 37.824
+    },
+    "insects": {
+      "src": "AMBTrop_Night time jungle background_CS_USC.mp3",
+      "t": 88.659
+    },
+    "water": {
+      "src": "WATRFlow_Slow river; small water movement_CS_USC.mp3",
+      "t": 18.069
+    },
+    "siren-police": {
+      "src": "VEHSirn_Old mechanical police siren_CS_USC.mp3",
+      "t": 14.727
+    },
+    "siren-medic": {
+      "src": "ALRMSirn_French police siren_CS_USC.mp3",
+      "t": 10.636
+    },
+    "turbine": {
+      "src": "AERORckt_V2 rocket fires_CS_USC.mp3",
+      "t": 26.72
+    },
+    "horn": {
+      "src": "VEHHorn_Car drive by with horn; doppler effect_CS_USC.mp3",
+      "t": 5.937
+    },
+    "horn-bus": {
+      "src": "VEHHorn_Many car horns in traffic jam_CS_USC.mp3",
+      "t": 2.165
+    },
+    "squeal": {
+      "src": "VEHSkid_Car drives in and stops; brakes squeak_CS_USC.mp3",
+      "t": 9.977
+    },
+    "ram": {
+      "src": "VEHCar-CRASH_Heavy short car crash_CS_USC.mp3",
+      "t": 0.509
+    },
+    "body": {
+      "src": "FGHTBf_Body hit and crash_CS_USC.mp3",
+      "t": 0.12
+    },
+    "step": {
+      "src": "FEETHmn_Movement and footsteps on dirt trail; debris_CS_USC.mp3",
+      "t": 5.368
+    },
+    "step-b": {
+      "src": "FEETHmn_Movement and footsteps on dirt trail; debris_CS_USC.mp3",
+      "t": 5.818
+    },
+    "bird": {
+      "src": "BIRDMisc-WINGS_Birds lightly flying and chirping_CS_USC.mp3",
+      "t": 34.711
+    },
+    "bird-b": {
+      "src": "BIRDMisc-WINGS_Birds lightly flying and chirping_CS_USC.mp3",
+      "t": 40.189
+    },
+    "bird-c": {
+      "src": "BIRDMisc-WINGS_Birds lightly flying and chirping_CS_USC.mp3",
+      "t": 42.274
+    },
+    "bell": {
+      "src": "Church_bells_-_Leverkusen,_2007.oga",
+      "t": 2.564
+    },
+    "bell-high": {
+      "src": "Church_bells_-_Leverkusen,_2007.oga",
+      "t": 3.033
+    },
+    "wind": {
+      "src": "AMBAir_Night noisy urban ambience; air only; interior_CS_USC.mp3",
+      "t": 0.11
+    }
+  },
+  "street": {
+    "mariachi": {
+      "src": "Mariachi.ogg",
+      "t": 10.65
+    },
+    "organ": {
+      "src": "218491_1661766-hq.mp3",
+      "t": 0.4
+    },
+    "cumbia": {
+      "src": "405031_612689-hq.mp3",
+      "t": 215.15
+    },
+    "huehuetl": {
+      "src": "482884_10050493-hq.mp3",
+      "t": 10.4
+    },
+    "tamales": {
+      "src": "52382_204398-hq.mp3",
+      "t": 99.15
+    }
+  },
+  "wind": true
+}

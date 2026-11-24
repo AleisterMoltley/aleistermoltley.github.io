@@ -1,0 +1,30 @@
+{
+  "name": "Tinta City",
+  "description": "A day on foot and in traffic in Mexico City. Take the job, cross the colonias, and get home before the lamps come on.",
+  "image": "https://aleistermoltley.github.io/assets/cartridge.png",
+  "external_url": "https://aleistermoltley.github.io/",
+  "attributes": [
+    { "trait_type": "Genre", "value": "Action" },
+    { "trait_type": "Platform", "value": "Web" },
+    { "trait_type": "Players", "value": "1" },
+    { "trait_type": "Developer", "value": "Aleister Moltley" },
+    { "trait_type": "Developer URL", "value": "https://aleistermoltley.github.io/" },
+    { "trait_type": "Tags", "value": "action, city, driving" }
+  ],
+  "properties": {
+    "files": [
+      { "uri": "https://aleistermoltley.github.io/assets/cartridge.png", "type": "image/png" }
+    ],
+    "category": "game",
+    "game_url": "https://aleistermoltley.github.io/full/",
+    "demo_url": "https://aleistermoltley.github.io/",
+    "screenshots": [
+      "https://aleistermoltley.github.io/assets/screenshots/01.png",
+      "https://aleistermoltley.github.io/assets/screenshots/02.png",
+      "https://aleistermoltley.github.io/assets/screenshots/03.png",
+      "https://aleistermoltley.github.io/assets/screenshots/04.png"
+    ],
+    "version": "0.1.0",
+    "aspect": "4:3"
+  }
+}
