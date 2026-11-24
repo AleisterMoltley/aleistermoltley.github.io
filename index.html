@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <title>Tinta</title>
+  <link rel="icon" href="favicon.svg" />
+  <script type="module" crossorigin src="./assets/index-CF1wQfyy.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BMDMDImg.css">
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="game" tabindex="0"></canvas>
+  </div>
+  <canvas id="comic"></canvas>
+
+  <section id="landing">
+    <div class="card">
+      <p class="mark">Mexico City</p>
+      <h1 id="title">Tinta</h1>
+      <p id="logline"></p>
+      <p id="skyline" aria-label="Time"></p>
+      <p id="status"></p>
+      <p id="demo-tag" hidden>DEMO</p>
+      <button id="play" type="button" disabled>Play</button>
+      <p id="law"></p>
+      <p id="hidden"></p>
+      <details>
+        <summary>How to play</summary>
+        <p id="howto"></p>
+      </details>
+    </div>
+  </section>
+
+  <div id="hud" hidden>
+    <header>
+      <div>
+        <p id="where"></p>
+        <div id="clock" aria-label="Time">
+          <span class="face" data-face aria-hidden="true">
+            <i data-hour-hand></i>
+            <i data-minute-hand></i>
+          </span>
+          <span class="readout">
+            <span data-time></span>
+            <span data-phase></span>
+          </span>
+        </div>
+      </div>
+      <div id="stars" aria-label="Wanted"></div>
+      <p id="cash"></p>
+    </header>
+    <div id="health" aria-label="Health"><span></span></div>
+    <p id="job"></p>
+    <p id="weapon"></p>
+    <p id="prompt"></p>
+    <div id="reel" hidden>
+      <p id="reel-place"></p>
+      <div class="reel-shade" aria-hidden="true"></div>
+      <div class="reel-copy">
+        <p id="reel-who"></p>
+        <i class="reel-rule" aria-hidden="true"></i>
+        <p id="reel-line" aria-live="polite"></p>
+        <div class="reel-foot">
+          <p id="reel-hint">E</p>
+          <button id="reel-skip" type="button">Skip</button>
+        </div>
+      </div>
+    </div>
+    <p id="toast"></p>
+    <div id="map" aria-label="Map">
+      <canvas id="minimap" width="168" height="126"></canvas>
+      <p id="map-hint">M</p>
+    </div>
+  </div>
+
+  <div id="touch" aria-label="Touch controls">
+    <button id="touch-view" type="button" data-edge="KeyC" aria-pressed="false">View</button>
+    <button id="touch-pause" type="button"></button>
+    <div id="wheel" aria-label="Steer">
+      <i id="wheel-knob"></i>
+    </div>
+    <div id="slots" aria-label="Weapons">
+      <button type="button" class="slot" data-edge="Digit1" hidden></button>
+      <button type="button" class="slot" data-edge="Digit2" hidden></button>
+      <button type="button" class="slot" data-edge="Digit3" hidden></button>
+      <button type="button" class="slot" data-edge="Digit4" hidden></button>
+      <button id="touch-reload" type="button" data-edge="KeyR" hidden>Reload</button>
+    </div>
+    <button id="touch-shoot" type="button" data-hold="mouse">Shoot</button>
+    <button id="touch-horn" type="button" data-edge="KeyH" hidden></button>
+    <button id="touch-brake" type="button" data-hold="space" hidden>Brake</button>
+  </div>
+
+  <div id="sheet" hidden></div>
+  <div id="demo-end" hidden>
+    <div class="paper">
+      <h2>DEMO OVER</h2>
+      <p id="demo-own">OWN TINTA CITY TO KEEP PLAYING</p>
+      <p id="demo-more">THE FULL GAME HAS THE WHOLE DAY</p>
+      <p id="demo-cash"></p>
+      <p id="demo-restart">PRESS ENTER TO RESTART</p>
+    </div>
+  </div>
+  <div id="pause" hidden>
+    <div class="paper">
+      <h2 id="pause-title"></h2>
+      <div class="pause-actions">
+        <button id="pause-resume" type="button"></button>
+        <button id="pause-full" type="button"></button>
+      </div>
+    </div>
+  </div>
+  <script>
+    window.__gxUnlock = function () { window.__gxWantUnlock = true; };
+    var GX_HOST_ORIGINS = /^https:\/\/([a-z0-9-]+\.)*colecovisiongx\.com$|^https:\/\/[a-z0-9-]+\.vercel\.app$|^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/;
+    window.addEventListener('message', function (e) {
+      if (!GX_HOST_ORIGINS.test(e.origin)) return;
+      var d = e.data;
+      if (!d || typeof window.__gxUnlock !== 'function') return;
+      var press = (d.type === 'keyEvent' && d.eventType !== 'keyup')
+        || (d.type === 'gx:input' && (d.buttons | 0) !== 0);
+      if (press) window.__gxUnlock();
+    });
+  </script>
+</body>
+</html>
